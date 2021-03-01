@@ -1,0 +1,124 @@
+.signup-wrapper{
+    display:flex;
+    flex-direction:row;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    /* border: 1px solid #ccc; */
+}
+
+.caption-container{
+    display: flex;
+    padding-left: 2em;
+    align-items: center;
+    height: 100vh;
+    width: 25vw;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    line-height: 35px;
+}
+
+.form-container{
+    display: flex;
+    /* padding-left: 25vw; */
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    margin-top: 8vh;
+    
+}
+
+
+.form-input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* gap:2vh; */
+    box-shadow: 3px 5px 5px #c5c3c3;
+    height: 75vh;
+    width: 50vw;
+    background-color: #9c9894;
+    border-radius: 5px;
+    margin-top: 18vh;
+}
+
+
+
+.signup-caption{
+    text-align: center;
+    padding-top:1.5vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+
+label {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.form-name-field{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh
+}
+
+.signup-textbox{
+    box-shadow: none;
+    height: 3.5vh;
+    width:18vw;
+    border-radius:8px;
+    width: 18vw;
+}
+
+.submit-button{
+    font-size: 0.75em;
+    width:7em;
+    height: 3em; 
+    background-color: rgb(68, 19, 19);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 5vh;
+    outline:none;
+    cursor: pointer;
+    box-shadow: none;
+    letter-spacing: 0.2px;
+}
+
+.signup-warning{
+    color:red;
+    text-align: center;
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.email-textbox{
+    width: 43vw;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 768px)
+{
+   .caption-container{
+       display:none;
+   }
+}

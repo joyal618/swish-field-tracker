@@ -1,0 +1,69 @@
+.single-request-card{
+    padding-top: 5vh;
+    margin-bottom: 2vh;
+    border: 1px solid gray;
+    box-shadow: 5px 8px rgb(88, 86, 86);
+    margin-right:10vw;
+}
+
+.request-card-task-number-button{
+    margin-bottom: 20px ;
+    margin-left: 3vw;
+    width:9vw;
+    height: 5vh;
+    border: none;
+    background-color: white;
+    box-shadow: 3px 3px rgb(195, 234, 252);
+
+}
+.request-card-assign-button{
+    margin-bottom: 20px ;
+    margin-left: 30vw;
+    width:6vw;
+    height: 5vh;
+    border: none;
+    background-color:rgb(150, 2, 2);
+    
+}
+.request-card-close-button{
+    margin-bottom: 20px ;
+    margin-left: 23vw;
+    width:9vw;
+    height: 5vh;
+    border: none;
+    background-color: white;
+    box-shadow: 3px 3px rgb(195, 234, 252); 
+}
+
+ /* toggle css  */
+ .my-collapsible {
+    margin-right:10.5vw;
+  }
+  .toggle-collapsible__toggle {
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 2px 2px rgb(139, 134, 134);
+    background: transparent;
+  }
+  .toggle-collapsible__content {
+    overflow: hidden;
+    background: linear-gradient(0deg, lightgray, white);
+    margin-right: 10vw;
+    margin-bottom:1vh;
+}
+  
+  .toggle-collapsible__content-inner {
+    padding: 0.5vh;
+    min-height: 20rem;
+    _background: linear-gradient(lightblue, white);
+  }
+  
+  .number {
+    font-variant-numeric: tabular-nums;
+    min-width: 3em;
+    display: inline-block;
+    text-align: left;
+  }
+  

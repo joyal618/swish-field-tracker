@@ -1,0 +1,12 @@
+.active-order-container{
+    padding-left: 23vw;
+    padding-top: 15vh;;
+}
+.active-order-header{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+    color: rgba(75, 36, 24, 0.96);
+}

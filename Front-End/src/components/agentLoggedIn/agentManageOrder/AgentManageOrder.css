@@ -1,0 +1,62 @@
+.agent-task-response{
+    display: flex;
+    width: 60vw;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin-left: 2vw;
+    background-color: rgb(235, 225, 217);
+    box-shadow: 2px 3px 3px #888888;
+}
+
+.agent-task-response-btn{
+    /* width: 12%; */
+    gap: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+ 
+.agent-task-response-btn Button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    /* text-weight: bold; */
+    box-shadow: 2px 2px #999;
+
+}
+.agent-task-response-btn #accept:hover, .agent-task-response-btn #PickedUp:hover, .agent-task-response-btn #Delivered:hover {
+    background-color: #27bb2c;
+    cursor: pointer;
+}
+
+
+.agent-task-response-btn #reject:hover, .agent-task-response-btn #delivery-difficulty:hover{
+    background-color: rgb(247, 10, 10);
+    cursor: pointer;
+}
+
+
+.agent-task-response-btn #accept, .agent-task-response-btn #PickedUp, .agent-task-response-btn #Delivered{
+
+    background-color: rgb(37, 124, 37);
+}
+
+.agent-task-response-btn #reject, .agent-task-response-btn #delivery-difficulty{
+    background-color: rgb(189, 34, 34);
+}
+
+.agent-task-id{
+    font-size:25px;
+    font-family: 'Merriweather', serif;
+    /* font-weight: bold; */
+}
+
+.No{
+    display:none;
+}

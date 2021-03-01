@@ -1,0 +1,146 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-sub-container{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.login-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8vw;
+    height: 100vh;
+    width: 50vw;
+    /* margin-top:10vh; */
+    /* background-color: aqua; */
+}
+
+
+.login-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+    /* background-color: brown; */
+}
+
+.login-image-caption{
+    /* margin-top:20vh; */
+    padding-top: 5vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
+}
+
+.login-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 70vh;
+    width: 25vw;
+    border-radius: 10px;
+    background-color: rgb(209, 202, 202);
+    box-shadow: 3px 5px 5px #888888;
+    /* margin-top:15vh; */
+}
+
+.login-caption{
+    font-family: 'Raleway', sans-serif;     
+    font-size: 26px;
+    box-sizing: border-box;
+    font-weight: bold;
+    width:45%;
+    text-align: center;
+    /* padding-top: 10px; */
+    
+}
+
+
+.login-input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -5vh; 
+    height: 12vh;
+    width: 75%; 
+    /* background-color: white;  */
+} 
+
+
+
+.login-button{
+    font-size: 1.3em;
+    width:60%;
+    height: 6vh; 
+    background-color: rgb(68, 19, 19);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.login-alternative-options{
+    padding-top: 2vh;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 16px;
+}
+
+label{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.form-items{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 3vh;
+}
+
+
+.login-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input{
+    height: 3vh;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px #888888;
+}
+
+select{
+    height: 4vh;
+    width: 20%;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px #888888;
+}
+
+.login-image-container img{
+    width:40vw;
+    height:auto
+}
+@media (max-width: 768px)
+{
+    .login-image-container{
+        display:none;
+        
+    }
+    .login-input{
+        justify-content:center;
+        width:100vw;
+    }
+    .login-input-container{
+        width:70vw;
+    }
+}

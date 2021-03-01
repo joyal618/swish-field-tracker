@@ -1,0 +1,15 @@
+.main-component{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cover-photo-container{
+  display:flex;
+  flex-direction:column;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./resources/lucian-alexe-afdu-guxjjm-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

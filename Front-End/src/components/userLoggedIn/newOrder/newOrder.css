@@ -1,0 +1,12 @@
+.header {
+    font-family: 'Raleway';
+    padding: 100px 0px 20px 300px;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px){
+    .header{
+     padding:2%;
+        text-align: center;
+    }
+}

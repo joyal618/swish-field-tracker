@@ -1,0 +1,116 @@
+
+.admin-page-contents{
+    margin-left:70vh;
+}
+.admin-manage-heading{
+    /* padding-top: 1vh; */
+    display: grid;
+    grid-template-columns: 50% 20%;
+}
+.admin-manage-heading-text{
+    font-size: 5.5vh;
+    color: brown;
+    font-weight: bold;
+    display: grid;
+    margin-top: 8vh;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.admin-manage-heading-button{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.filter-tasks-link:hover{
+    text-decoration:underline;
+}
+.filter-tasks-link:active{
+    text-decoration: underline;
+    color: blue;
+}
+
+.request-cards-list{
+    margin-top: 1vw;
+    padding-left: 30vw;
+   
+  
+}
+.add-button {
+    /* margin-bottom: 20px ;*/
+    margin-left: 5vw;
+    margin-top: 4vh;
+    width: 7vw;
+    height: 40px;
+    border: none;
+    background-color:rgb(150, 2, 2);
+    
+
+}
+
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .form-signin .form-signin-heading,
+  .form-signin .checkbox {
+    margin-bottom: 30px;
+  }
+  .form-signin .checkbox {
+    font-weight: normal;
+  }
+  .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .wrapper .form-signin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  .wrapper .form-signin .form-control{
+      width: 100%;
+      margin-top:2vh;
+  }
+  .wrapper .form-signin .btn-block{
+      width: 30%;
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .admin-manage-heading-text{
+      font-size: 5.5vh;
+      color: brown;
+      font-weight: bold;
+      display: grid;
+      margin-top: 4vh;
+      grid-column-start: 1;
+      grid-column-end: 1;
+  }
+
+  }

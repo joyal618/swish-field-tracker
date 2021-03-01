@@ -1,0 +1,8 @@
+server:
+  applicationConnectors:
+    - type : http
+      port : 8080
+
+mongoHost : localhost
+mongoPort : 27017
+mongoDB : FieldTracker

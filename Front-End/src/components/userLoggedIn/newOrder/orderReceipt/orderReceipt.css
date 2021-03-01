@@ -1,0 +1,92 @@
+.receipt-container{
+    padding-left:300px;
+    overflow-x: hidden;
+}
+.receipt-wrapper {
+    padding: 50px 30px 50px 0px;
+    font-family: 'Merriweather', Serif;
+    display:flex;
+    flex-direction:column;
+    letter-spacing: 0.2px;
+    gap:10vh;
+    overflow-x: hidden;
+}   
+.address-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:50vw
+
+}
+.receipt-image-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+    justify-content: space-between;
+}
+.receipt-image-container img{
+    width:200px;
+    height:auto;
+}
+.receipt-image-container{
+    
+    padding-right: 4em;
+    padding-top: 3em;
+}
+.price{
+    font-weight: 700;
+}
+#confirm-button{
+    width: 7em;
+    height: 3em;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(39, 10, 10);
+    color: white;
+    font-family: Merriweather, Serif;
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+      
+.imgPreview
+{ 
+ text-align: center;
+ margin: 5px 5px;
+ height: auto;
+ width: 200px;
+ border: 1px solid gray;
+}
+
+.imgPreview img {
+    height :auto;
+    width :100%;
+}
+.receipt-buttons{
+    width:30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+    .address-container{flex-direction: column;
+        gap:2em;
+        justify-content: center;
+}
+
+    .receipt-container{
+        padding: 0%;
+    }
+    .receipt-wrapper{
+        justify-content: center;
+        align-items: flex-start;
+        padding:10%;
+    }
+    .receipt-buttons{
+        width:80vw;
+        align-items: center;
+        padding:2%
+    }
+}
+ 

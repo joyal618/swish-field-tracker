@@ -1,0 +1,29 @@
+
+.admin-page-contents{
+    margin-left:70vh;
+}
+.admin-manage-heading{
+    padding-top: 1vh;
+    padding-top: 7vh;
+}
+.admin-manage-heading-text{
+    font-size: 5.5vh;
+    color: brown;
+    font-weight: bold;
+}
+
+.filter-tasks-link:hover{
+    text-decoration:underline;
+}
+.filter-tasks-link:active{
+    text-decoration: underline;
+    color: blue;
+}
+
+.request-cards-list{
+    margin-top: 1vw;
+    padding-left: 30vw;
+   
+  
+}
+

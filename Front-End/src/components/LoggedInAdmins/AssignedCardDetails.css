@@ -1,0 +1,553 @@
+/* css for both assign and unassign card components */
+.toggle-collapsible .single-request-card{
+    margin-left: 2vw;
+    width: 60vw;
+    padding: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid gray; */
+    /* margin-right:10vw; */
+    background-color: rgb(230, 217, 214);
+    box-shadow: 3px 5px 5px #888888;
+    border-radius: 8px;
+}
+.single-request-card i{
+    color: white;
+}
+.single-request-card button{
+    font-size: 1vw;
+    width:8vw;
+    height: 5vh;
+    border: none;
+    background-color: rgb(77, 39, 24);
+    cursor: pointer;
+    color:white;
+    /* align-self: center; */
+}
+
+
+.request-card-task-number-button:hover{
+    background-color: rgb(131, 66, 40);
+  }
+  .request-card-task-number-button:active{
+    transform: translateY(2px);
+  }
+
+.call-agent-icon{
+    background-image: url("/src/resources/call-agent-icon2.png");
+    background-repeat: no-repeat;
+    margin-left: 0.5vw;
+    width: 2.8vw;
+    height: 5vh;
+}
+
+.request-card-assign-button{
+    margin-bottom: 20px ;
+    margin-left: 30vw;
+    font-size: 1vw;
+    width:6vw;
+    height: 5vh;
+    border: none;
+    background-color:rgb(150, 2, 2);
+    color: white;
+    font-family: "Merriweather";
+}
+.request-card-assign-button:hover{
+  background-color:rgb(158, 73, 73);  
+}
+
+.request-card-status-button{
+    margin-bottom: 20px ;
+    margin-left: 26.7vw;
+    font-size: 1vw;
+    width:6vw;
+    height: 5vh;
+    border: none;
+    background-color: rgb(3, 102, 3);
+    color: white;
+    font-family: "Merriweather";
+}
+.request-card-status-button:hover{
+    background-color: rgb(93, 153, 93);
+}
+
+.request-card-close-button{
+    margin-bottom: 20px ;
+    margin-left: 23vw;
+    width:9vw;
+    height: 5vh;
+    border: none;
+    background-color: white;
+    /* box-shadow: 3px 3px rgb(195, 234, 252);  */
+}
+
+.toggle-display-content-text{
+    font-family: "Merriweather";
+    font-size: 2.5vh;
+}
+
+.request-card-close-icon{
+    background-image: url('/src/resources/go-up-icon.png');
+    background-repeat: no-repeat;
+    height: 9vh;
+    width: 5vw;
+    margin-left: 23vw;
+   border: none;
+}
+
+.open-task-request-image{
+    margin-left: 0.5vw;
+    text-decoration: none;
+    font-family: "merriweather";
+    background-color: rgb(44, 13, 1);
+    color: white;
+}
+
+ /* toggle css  */
+ .my-collapsible {
+    margin-right:10.5vw;
+  }
+  .toggle-collapsible__toggle {
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* box-shadow: 0px 2px 2px rgb(139, 134, 134); */
+    background: transparent;
+  }
+  .toggle-collapsible__content {
+    overflow: hidden;
+    background: linear-gradient(0deg, lightgray, white);
+    margin-right: 10vw;
+    margin-bottom:1vh;
+    margin-left: 2vw;
+    width: 63vw;
+    /* height: 30%; */
+}
+  
+  .toggle-collapsible__content-inner {
+    padding: 0.5vh;
+    min-height: 20rem;
+    _background: linear-gradient(lightblue, white);
+  }
+  
+  .number {
+    font-variant-numeric: tabular-nums;
+    min-width: 3em;
+    display: inline-block;
+    text-align: left;
+  }
+
+
+  /* assign-dialog-box */
+  a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ui-dialog-overlay {
+    background: #aaaaaa;
+    opacity: .3;
+    filter: Alpha(Opacity=30);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.ui-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    outline: 0 none;
+    padding: 0 !important;;
+    z-index: 101;
+    background-color: rgb(2, 2, 2);
+    /* rgb(165, 162, 162) */
+    border: 1px solid #f6f6f6;
+}
+
+.ui-dialog.maximized{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.ui-dialog.minimized{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    position: relative;
+    font-size: 1em;
+    border-radius: 3px;
+    padding: 0.5em;
+    height: 35px;
+    border-bottom: 1px solid #f6f6f6;
+    color:white;
+}
+
+.ui-dialog.react-draggable .ui-dialog-titlebar {
+    cursor: move;
+}
+
+.ui-dialog .ui-dialog-titlebar .action-items {
+    float: right;
+    position: relative;
+}
+
+.ui-dialog .ui-dialog-titlebar .title {
+    float: left;
+    margin-right: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.icon {
+    width: 24px;
+    /* height: 66px; */
+    display: block;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+ .icon.icon-close {
+    width: 2.5vw;
+    height: 5vh;
+    margin-right: 0.5vw;
+    background-image: url("/src/resources/close2.png");
+   color: black;
+}
+/*
+.icon.icon-minimize {   
+    background-image: url("./img/minimize.png");
+}
+
+.icon.icon-maximize {
+    background-image: url("./img/maximize.png");
+}
+
+.icon.icon-restore {
+    background-image: url("./img/restore.png");
+} */
+
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding: 0.5em;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: right;
+    border-width: 1px 0 0 0;
+    /* border-top: 1px solid #f6f6f6; */
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{
+    padding: 0.5em;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+    margin-bottom: 39vh;
+    cursor: pointer;
+    background-color: #a5a6ad;
+    padding: 0.5em 1em;
+    outline: none;
+    border: 1px solid #fffdfd;
+    border-radius: 3px;
+}
+
+.ui-dialog .ui-dialog-buttonpane button:hover{
+    background-color: #CCCCCC;
+    border: 1px solid #BBBBBB;
+}
+
+.ui-dialog .react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    right: 0;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+');
+    background-position: bottom right;
+    padding: 0 3px 3px 0;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-sizing: border-box;
+    cursor: se-resize;
+}
+
+/* responsive css for phone*/
+@media only screen and (max-width: 720px) {
+    /* css for both assign and unassign card components */
+.single-request-card{
+    padding-top: 1vh;
+    margin-bottom: 0.5vh;
+    border: 1px solid gray;
+    padding-right:1vw; 
+    background-color: linear-gradient(red, yellow);
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.request-card-task-number-button{
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    width:10vw;
+    height: 1.5vh;
+    border: none;
+    /* background-color: rgb(22, 110, 126); */
+    color:white;
+}
+.request-card-task-number-button:hover{
+    background-color: rgb(28, 136, 155);
+  }
+  .request-card-task-number-button:active{
+    transform: translateY(2px);
+  }
+
+.request-card-assign-button{
+    margin-left: 30vw;
+    font-size: 1.5vw;
+    width:8vw;
+    height: 1.5vh;
+    border: none;
+    background-color:rgb(150, 2, 2);
+    color: white;
+    font-family: "Merriweather";
+}
+.request-card-assign-button:hover{
+  background-color:rgb(158, 73, 73);  
+}
+
+.request-card-status-button{
+    margin-bottom: 20px ;
+    margin-left: 30vw;
+    font-size: 1.5vw;
+    width:8vw;
+    height: 1.5vh;
+    border: none;
+    background-color: rgb(3, 102, 3);
+    color: white;
+}
+.request-card-status-button:hover{
+    background-color: rgb(93, 153, 93);
+}
+
+.request-card-close-button{
+    margin-bottom: 20px ;
+    margin-left: 23vw;
+    width:9vw;
+    height: 5vh;
+    border: none;
+    background-color: white;
+    /* box-shadow: 3px 3px rgb(195, 234, 252);  */
+}
+
+.toggle-display-content-text{
+    font-family: "Merriweather";
+    font-size: 0.7vh;
+}
+
+.request-card-close-icon{
+    background-image: url('/src/resources/go-up-icon.png');
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 7vw;
+    margin-left: 23vw;
+   border: none;
+}
+
+ /* toggle css  */
+ .my-collapsible {
+    margin-right:10.5vw;
+  }
+  .toggle-collapsible__toggle {
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* box-shadow: 0px 2px 2px rgb(139, 134, 134); */
+    background: transparent;
+  }
+  .toggle-collapsible__content {
+    overflow: hidden;
+    background: linear-gradient(0deg, lightgray, white);
+    margin-right: 10vw;
+    margin-bottom:0.1vh;
+}
+  
+  .toggle-collapsible__content-inner {
+    padding: 0.5vh;
+    min-height: 9rem;
+    _background: linear-gradient(lightblue, white);
+  }
+  
+  .number {
+    font-variant-numeric: tabular-nums;
+    min-width: 3em;
+    display: inline-block;
+    text-align: left;
+  }
+
+
+  /* assign-dialog-box */
+  a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ui-dialog-overlay {
+    background: #aaaaaa;
+    opacity: .3;
+    filter: Alpha(Opacity=30);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.ui-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    outline: 0 none;
+    padding: 0 !important;;
+    z-index: 101;
+    background-color: rgb(2, 2, 2);
+    /* rgb(165, 162, 162) */
+    border: 1px solid #f6f6f6;
+}
+
+.ui-dialog.maximized{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.ui-dialog.minimized{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    position: relative;
+    font-size: 1em;
+    border-radius: 3px;
+    padding: 0.5em;
+    height: 35px;
+    border-bottom: 1px solid #f6f6f6;
+    color:white;
+}
+
+.ui-dialog.react-draggable .ui-dialog-titlebar {
+    cursor: move;
+}
+
+.ui-dialog .ui-dialog-titlebar .action-items {
+    float: right;
+    position: relative;
+}
+
+.ui-dialog .ui-dialog-titlebar .title {
+    float: left;
+    margin-right: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.icon {
+    width: 24px;
+    /* height: 66px; */
+    display: block;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+ .icon.icon-close {
+    width: 2.5vw;
+    height: 5vh;
+    margin-right: 0.5vw;
+    background-image: url("/src/resources/close2.png");
+   color: black;
+}
+
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding: 0.5em;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: right;
+    border-width: 1px 0 0 0;
+    /* border-top: 1px solid #f6f6f6; */
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{
+    padding: 0.5em;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+    margin-bottom: 39vh;
+    cursor: pointer;
+    background-color: #a5a6ad;
+    padding: 0.5em 1em;
+    outline: none;
+    border: 1px solid #fffdfd;
+    border-radius: 3px;
+}
+
+.ui-dialog .ui-dialog-buttonpane button:hover{
+    background-color: #CCCCCC;
+    border: 1px solid #BBBBBB;
+}
+
+.ui-dialog .react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    right: 0;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+');
+    background-position: bottom right;
+    padding: 0 3px 3px 0;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-sizing: border-box;
+    cursor: se-resize;
+}
+
+}
+
+

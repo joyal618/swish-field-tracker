@@ -1,0 +1,117 @@
+.admin-page-contents-main{
+   margin-right: 5vw;
+}
+.admin-page-contents{
+    margin-left:30vw;
+ 
+}
+.admin-manage-heading{
+    padding-top: 8vh;
+}
+.admin-manage-heading-text{
+    font-size: 5.5vh;
+    color: brown;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+
+.admin-filter-tasks{
+    display: flex;
+    flex-direction: row;
+    /* padding-top:6vh; */
+    padding-left: 46vw;
+}
+.filter-tasks-link{
+    padding:5px 1vw;
+    border-right: none;
+    text-decoration: none;
+    font-family: "merriweather";
+    color: black;
+    background-color: rgb(44, 13, 1);
+    color: white;
+}
+.filter-tasks-link:hover{
+    background-color: rgb(80, 14, 4);
+}
+.filter-tasks-link:focus{
+    background-color: rgb(29, 100, 231);
+}
+
+
+.request-cards-list-assign{
+    margin-top: 1vw;
+    padding-left: 30vw; 
+}
+
+.request-cards-list-unassign{
+    margin-top: 1vw;
+    padding-left: 30vw; 
+}
+
+.request-cards-scroll{
+    height:70vh;
+    overflow-y: scroll;
+}
+
+.card-request-subheading{
+    font-family: "Raleway";
+    font-size: 2.7vh;
+    font-weight: bolder;
+    color: rgb(15, 110, 82);
+}
+
+/* responsive css */
+@media only screen and (max-width: 720px) {
+    .admin-page-contents-main{
+        margin-right: 5vw;
+     }
+     .admin-page-contents{
+         margin-left:30vw;
+      
+     }
+     .admin-manage-heading{
+         padding-top: 8vh;
+     }
+     .admin-manage-heading-text{
+         font-size: 3vh;
+         color: brown;
+         font-weight: bold;
+         font-family: "Raleway";
+     }
+     
+     .admin-filter-tasks{
+         display: flex;
+         flex-direction: row;
+         /* padding-top:6vh; */
+         padding-left: 46vw;
+     }
+     .filter-tasks-link{
+         padding:5px 0.5vw;
+         font-size: 0.7vh;
+         border-right: none;
+         margin-bottom: 0.5vh;
+         text-decoration: none;
+         font-family: "merriweather";
+         color: black;
+         background-color: rgb(44, 13, 1);
+         color: white;
+     }
+     .filter-tasks-link:hover{
+         background-color: rgb(80, 14, 4);
+     }
+     .filter-tasks-link:focus{
+         background-color: rgb(29, 100, 231);
+     }
+     
+     .request-cards-list-assign{
+         margin-top: 1vw;
+         padding-left: 30vw; 
+     }
+     
+     .request-cards-list-unassign{
+         margin-top: 1vw;
+         padding-left: 30vw; 
+     }
+
+
+}

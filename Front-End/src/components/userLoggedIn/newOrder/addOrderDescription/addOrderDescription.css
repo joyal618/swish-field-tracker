@@ -1,0 +1,88 @@
+    .order-description {
+        padding-left: 23vw;
+        overflow-x:hidden;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .section-header {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 1em;
+        color: rgba(75, 36, 24, 0.96);
+    }
+    
+    .switching-button {
+        background-color: rgb(39, 10, 10);
+        border: 2px solid white;
+        border-radius: 15px;
+        font-family: Merriweather, Serif;
+        font-size: 0.75em;
+        padding: 10px;
+        color: white;
+        margin-top: 1.5em;
+        cursor: pointer;
+        outline:none;
+    }
+    .order-switch-button-wrapper{
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-start;
+    }
+
+    #order-next-button {
+        width: 7em;
+        height: 3em;
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgb(39, 10, 10);
+        color: white;
+        font-family: 'Merriweather', Serif;
+        font-size: 0.75em;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+    }
+    .image-order-desc-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    }
+    .shopping-image img{
+        width:200px;
+        height: auto;
+    }
+    .shopping-image{
+        padding-right:4em;
+        padding-top: 4em; 
+    }
+    @media only screen and (max-width: 600px){
+        .order-description{
+            padding:5%;
+        }
+        .order-switch-button-wrapper{
+            justify-content: center;
+            align-items: center;
+        }
+        .order-description{
+            align-items: center;
+            justify-content: space-around;
+
+
+        }
+        .shopping-image {
+            display: none;
+        }
+        .shopping-image img{
+            display: none;
+        }
+    }
+
+
+    .order-switch-button-wrapper button:hover{
+        transform: scale(1.1);
+        
+    }

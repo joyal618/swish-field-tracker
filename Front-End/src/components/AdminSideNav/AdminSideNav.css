@@ -1,0 +1,47 @@
+.side-nav-bar-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index:1;
+    margin-top:10vh;
+    padding-left: 1vw;
+    align-items: center;
+    height:100%;
+    width: 23vw;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+}
+
+.admin-profile-pic-and-name{
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-profile-pic{
+    height:20vh;
+    width: 20vh;
+    border-radius: 50%;
+}
+.admin-profile-name{
+    margin-top: 2vh;
+    font-family: "Poppins";
+    color:white;
+    text-decoration: none;
+}
+
+.admin-nav-bar-links{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+}
+.admin-nav-bar-text{
+    color:white;
+    font-size: 3vh;
+    font-family: "Merriweather";
+    text-decoration: none;
+    padding-bottom:5vh;
+}
+

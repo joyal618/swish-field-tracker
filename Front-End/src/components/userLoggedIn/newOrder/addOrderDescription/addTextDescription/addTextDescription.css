@@ -1,0 +1,25 @@
+    .order-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vh; 
+        overflow-x:hidden;    
+    }
+    .order-form-container{
+        width:100vw;
+        overflow-x:hidden;
+    }
+    #order-input-text{     
+        height:10vh;
+        width:30vw;  
+    }
+    @media only screen and (max-width: 600px){
+        #order-input-text{
+            width: 40vw;
+            height: 30vh;
+        }
+        .order-form{
+            align-items: center;
+        }
+
+    }

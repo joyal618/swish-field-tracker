@@ -1,0 +1,13 @@
+.agent-past-order-container{
+    padding-left: 5vw;
+    padding-top: 3vh;;
+}
+.past-order-header{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+    padding-bottom: 1em;
+    color: rgba(75, 36, 24, 0.96);
+}

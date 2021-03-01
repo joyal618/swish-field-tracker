@@ -1,0 +1,47 @@
+    .order-form-container {
+        padding: 1em 0em 2em 2em;
+        width: 40vw;
+    }
+    
+    .order-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vh;
+        padding-top: 10vh;
+    }
+    
+    #order-choose-file {
+        font-family: 'Merriweather', Serif;
+        color: black;
+        overflow:visible;
+        box-shadow: none;
+        width: 17em;
+        
+    }
+    
+    #file-upload-button {
+        font-family: 'Merriweather', Serif;
+        color: brown; 
+    }
+    .file-upload img {
+        height: 100px;
+        width: 100px;
+      }
+    
+      
+      .imgPreview
+     { 
+      text-align: center;
+      margin: 5px 5px;
+      height: auto;
+      width: 200px;
+      border: 1px solid gray;
+     }
+
+     .imgPreview img {
+         height :auto;
+         width :100%;
+     }
+      
+      

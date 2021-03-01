@@ -1,0 +1,69 @@
+.customer-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    height: 70vh;
+    width: 100vw;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.customer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    color: rgb(63, 32, 12);
+    filter: grayscale(100%);
+
+}
+
+
+.caption{
+    padding-top:10vh;
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    color:  rgb(63, 32, 12);
+}
+
+
+
+.comment{
+    opacity: 60%;
+    padding-top: 2vh;        
+    font-size: 20px;
+    width: 15vw;
+    text-align: center;
+}
+.name{
+    opacity: 60%;
+    font-size: 15px;    
+    text-align: right;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .caption{
+        font-size: 1.45em;
+        padding-bottom: 8vh;
+    }
+    .customer-container{
+        flex-direction: column;
+        height:180vh;
+    }
+    .comment{
+        font-size: 16px;
+        width: 50vw;
+    }
+    .name{
+        font-size: 12px;
+    }
+
+  }

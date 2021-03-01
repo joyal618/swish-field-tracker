@@ -1,0 +1,115 @@
+.side-nav-bar-container{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    position: absolute;
+    z-index:2;
+    margin-top:11vh;
+    padding-left: 1vw;
+    align-items: center;
+    height:100%;
+    width: 23vw;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+}
+
+.admin-profile-pic-and-name{
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-profile-pic{
+    background-image: url('/src/resources/admin-new.png');
+    background-repeat: no-repeat;
+    margin-top: 2vh;
+    margin-left: 10vw;
+    height:20vh;
+    width: 20vw;
+ 
+}
+.admin-profile-name{
+    
+    margin-left: 8vw;
+    font-family: "Merriweather";
+    color:white;
+    text-decoration: none;
+}
+
+.admin-sidebar-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vh;
+    
+}
+
+.admin-sidebar-link-text{
+    font-family: "Merriweather";
+    padding-top: 2vh;
+    font-size: 3vh;
+    margin-top: 2vh;
+    text-decoration: none ;
+    color:white;
+}
+
+/* responsive for phone */
+@media only screen and (max-width: 500px) {
+    .side-nav-bar-container{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        position: absolute;
+        z-index:2;
+        margin-top:4.5vh;
+        padding-left: 1vw;
+        align-items: center;
+        height:100%;
+        width: 23vw;
+        background-color: black;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2vw;
+    }
+    
+    .admin-profile-pic-and-name{
+        padding-top: 5vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .admin-profile-pic{
+        background-image: url('/src/resources/admin-new.png');
+        background-repeat: no-repeat;
+        margin-top: 2vh;
+        margin-left: 6vw;
+        height:9vh;
+        width: 20vw;
+     
+    }
+    .admin-profile-name{
+        margin-left: 2.5vw;
+        margin-bottom: 1vh;
+        font-size: 1.5vh;
+        font-family: "Merriweather";
+        color:white;
+        text-decoration: none;
+    }
+    
+    .admin-sidebar-links{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1vh;
+        
+    }
+    
+    .admin-sidebar-link-text{
+        font-family: "Merriweather";
+        padding-top: 2vh;
+        font-size: 1vh;
+        margin-top: 2vh;
+        text-decoration: none ;
+    }
+   
+  }

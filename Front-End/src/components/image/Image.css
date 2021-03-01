@@ -1,0 +1,59 @@
+.image-container{
+    background-image: url(../../resources/andrew-kambel-lmEpGmZuaLg-unsplash.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.map-container {
+   background: rgba(38, 36, 47, 0.5); ;
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   z-index: 0;
+   height: 100vh;
+  }
+  .map-height{
+      height:100%;
+  }
+  .map-element{
+    height:500px;
+    width: 500px;
+  }
+
+  .map-header{
+      font-size: 2em;
+      color: white;
+      font-family: 'Raleway';
+      font-weight: bolder;
+      height: 20vh;
+  }
+  .logo-service-wrapper{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width:40vw;
+  }
+  #small-caption{
+      font-size: 0.5em;
+  }
+  @media only screen and (max-width: 600px) {
+      .map-container{
+          flex-direction: column;
+      }
+      .image-container{
+          height:100vh;
+      }
+      .map-element{
+          height:300px;
+          width:300px;
+      }
+      .logo-service-wrapper{
+          width:80vw;
+      }
+      .map-header{
+          font-size: 1.5em;
+      }
+  }
